@@ -6,11 +6,11 @@
 :root {
   --bg-color: black;
   --calc-bg-color: rgb(45, 58, 71);
-  --display-bg: rgb(240, 240, 35);
-  --display-text: white;
+  --display-bg: rgb(221, 221, 6);
+  --display-text: rgb(51, 44, 44);
+  --btn-text: white;
   --btn-bg1: #7c7c7c;
   --btn-bg2: #2e2e2e;
-  --btn-bg3: rgb(240, 240, 35);
 }
 
 body {
@@ -70,19 +70,19 @@ body {
 
 .mybtn1 {
   background-color: var(--btn-bg1);
-  color: white;
+  color: var(--btn-text);
 }
 
 .mybtn2 {
   background-color: var(--btn-bg2);
-  color: white;
+  color: var(--btn-text);
 }
 
 .mybtn3 {
-  background-color: var(--btn-bg3);
-  color: gray;
+  background-color: var(--display-bg);
+  color: var(--btn-bg2);
 }
 
 #name {
-  color: var(--display-text);
+  color: white;
 }
